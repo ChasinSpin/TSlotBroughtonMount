@@ -22,9 +22,13 @@
 // Part 9 = PLA 15% fill, support
 // Part 10 = PLA 15% fill, no support
 // Part 11 = PLA 15% fill, support
-// Part 12 = Ninjaflex 30% fill, no support
+// Part 12 = PLA 15% fill, no support
+// Part 13 = PLA 15% fill, support
+// Part 14 = PLA 15% fill, no support
+// Part 15 = PLA 15% fill, no support
+// Part 16 = Ninjaflex 30% fill, no support
 
-partNum                         = 1;    // 0 = Plate 1, 2 = Feet, 3 = Alt Foot Holder, 4 = Alt Foot, 5 = Telescope Supports, 6 = Az Stops, 7 = Alt Knobs, 8 = Rotator Knob, 9 = Extension Knob, 10 = Alt Lock Nut, 11 = Alt Bearing, 12 = Bands
+partNum                         = 0;    // 0 = Plate 1, 2 = Feet, 3 = Alt Foot Holder, 4 = Alt Foot, 5 = Telescope Supports, 6 = Az Stops, 7 = Alt Knobs, 8 = Rotator Knob, 9 = Extension Knob, 10 = Alt Lock Nut, 11 = Alt Bearing, 12 = Altitude Markers, 13 = Altitude Marker Knobs, 14 = Paver Markers, 15 = Telescope Slide Stop, 16 = Bands 
 
 full2020                        = 20;
 half2020                        = full2020/2.0;
@@ -48,6 +52,13 @@ doubleFlangeHoleFlangeLength    = 30.0;
 doubleFlangeBoltHeadThickness   = m5HeadThickness;
 doubleFlangeBoltHeadDiameter    = m5HeadDiameter;
 doubleFlangeThickness           = 3.5;
+
+singleFlangeHolePos             = half2020;
+singleFlangeHoleDia             = m5BoltDiameter;
+singleFlangeHoleFlangeLength    = full2020;
+singleFlangeBoltHeadThickness   = m5HeadThickness;
+singleFlangeBoltHeadDiameter    = m5HeadDiameter;
+singleFlangeThickness           = 3.5;
 
 altFootHolderHolePos            = 7.5;
 altFootHolderHoleDia            = m5BoltDiameter;
@@ -95,10 +106,16 @@ restBandNotchInset              = 9.0;
 restBoltDiameter                = m5BoltDiameter;
 restFlangeThickness             = 3.5;
 
+telescopeSlideStopDiameter      = rest2Diameter;
+telescopeSlideStopLength        = 30.0;
+telescopeSlideStopHeight        = 10;
+telescopeSlideStopThickness     = 10;
+telescopeSlideStopOffsetZ       = -3;    
+
 azStopDimensions                = [0.25 * full2020, full2020 * 2, doubleFlangeThickness * 2];
 
-band1Length                     = 220;
-band2Length                     = 250;
+band1Length                     = 210;
+band2Length                     = 235;
 bandTabLength                   = 20;
 bandWidth                       = restWidth + 12;
 bandNotch                       = [restWidth + 2, 30];
@@ -112,6 +129,9 @@ altKnobNutThickness             = m5NutThickness;
 altKnobBoltHeadDiameter         = m5HeadDiameter;
 altKnobFlangeThickness          = 6.3;
 altKnobKnurlDiameter            = 2.8;
+
+altMarkerKnobLength             = 14;
+altMarkerKnobFlangeThickness    = 3.5;
 
 extensionKnobLength             = 17.0;
 
@@ -127,6 +147,8 @@ $fn                             = 80;
 
 if ( partNum == 0 )
 {
+    // PLA 15% fill, no support (Parts 2, 5, 6, 10, 12, 14)
+
     // Part 2
     rotate( [180, 0, 0] )
     {
@@ -157,10 +179,31 @@ if ( partNum == 0 )
     // Part 10
     translate( [55, 40, 0] )
         altLockNut();
+    
+    // Part 12
+    translate( [42, 80, 0] )
+    {
+        singleFlange(false);
+        translate( [full2020 * 1.5, 0, 0] )
+            singleFlange(false);
+    }
+    
+    // Part 14
+    translate( [130, 0, 0] )
+        paverMarkers();
+    
+    // Part 15
+    translate( [143, 80, 0] )
+    {
+        telescopeSlideStop();
+        translate( [0, telescopeSlideStopThickness * 1.5, 0] )
+            telescopeSlideStop();
+    }
 }
 else if (partNum == 1)
 {
-    // Part 1 = PLA 15% fill, support (Parts 3, 4, 7, 8, 9, 11_
+    // PLA 15% fill, support (Parts 3, 4, 7, 8, 9, 11, 13)
+    
     // Part 3
     altFootHolder();
     
@@ -193,6 +236,14 @@ else if (partNum == 1)
         altBearing();
         translate( [full2020 * 1.5, 0, 0] )
             altBearing();
+    }
+ 
+    // Part 13
+    translate( [100, 30, 0] )
+    {
+        knurledKnob(altKnobDiameter, altMarkerKnobLength, altMarkerKnobFlangeThickness);
+        translate( [25, 0, 0] )
+            knurledKnob(altKnobDiameter, altMarkerKnobLength, altMarkerKnobFlangeThickness);
     }
 }   
 else if ( partNum == 2 )
@@ -255,7 +306,60 @@ else if ( partNum == 11 )
 }
 else if ( partNum == 12 )
 {
+    singleFlange(false);
+    translate( [full2020 * 1.5, 0, 0] )
+        singleFlange(false);
+}
+else if ( partNum == 13 )
+{
+    knurledKnob(altKnobDiameter, altMarkerKnobLength, altMarkerKnobFlangeThickness);
+    translate( [25, 0, 0] )
+        knurledKnob(altKnobDiameter, altMarkerKnobLength, altMarkerKnobFlangeThickness);
+}
+else if ( partNum == 14 )
+{
+    paverMarkers();
+}
+else if ( partNum == 15 )
+{
+    telescopeSlideStop();
+    translate( [0, telescopeSlideStopThickness * 1.5, 0] )
+        telescopeSlideStop();
+}
+else if ( partNum == 16 )
+{
     bands();
+}
+
+
+
+module telescopeSlideStop()
+{
+    difference()
+    {
+        translate( [0, 0, telescopeSlideStopHeight/2] )
+            cube( [telescopeSlideStopLength, telescopeSlideStopThickness, telescopeSlideStopHeight], center = true);
+        
+        translate( [0, 0, telescopeSlideStopDiameter / 2 + telescopeSlideStopHeight + telescopeSlideStopOffsetZ] )
+            rotate( [90, 0, 0] )
+                cylinder( d = telescopeSlideStopDiameter, h = telescopeSlideStopThickness + manifoldCorrection * 2, center = true);
+    }
+}
+
+
+
+module paverMarkers()
+{
+    paverMarkerWidth = 7;
+    paverMarkerLength = 20;
+    paverMarkerThickness = 3.5;
+
+    cube( [paverMarkerWidth, paverMarkerLength, paverMarkerThickness] );
+    translate( [0, -paverMarkerWidth, 0] )
+        cube( [paverMarkerLength + paverMarkerWidth, paverMarkerWidth, paverMarkerThickness] );
+    
+    translate( [paverMarkerWidth * 2.0,  paverMarkerWidth, 0] )
+        cube( [paverMarkerWidth, paverMarkerLength, paverMarkerThickness] );
 }
 
 
@@ -395,6 +499,27 @@ module doubleFlange(recess)
     }
 }
 
+
+
+module singleFlange(recess)
+{
+    difference()
+    {
+        translate( [0, -full2020/2, 0] )
+            cube( [singleFlangeHoleFlangeLength, full2020, singleFlangeThickness] );
+        
+        // Bolt holes
+        translate( [singleFlangeHoleFlangeLength - singleFlangeHolePos, 0, -manifoldCorrection] )
+            cylinder(d=singleFlangeHoleDia, h = singleFlangeThickness + manifoldCorrection * 2);
+        
+        // Bolt head holes
+        if ( recess )
+        {
+            translate( [singleFlangeHoleFlangeLength - singleFlangeHolePos, 0, singleFlangeThickness - singleFlangeBoltHeadThickness] )
+                cylinder(d=singleFlangeBoltHeadDiameter, h = singleFlangeBoltHeadThickness + manifoldCorrection);
+        }
+    }
+}
 
 
 module telescopeSupport(diameter, height, length, offsetTube)

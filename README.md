@@ -19,6 +19,7 @@ This mount is inspired by the original Paver Mount design of John Boughton and h
 * [High Altitudes near Zenith](#high-altitudes-near-zenith)
 * [Use With 12inch Pavers](#use-with-12inch-pavers)
 * [Extending For Larger Scopes](#extending-for-larger-scopes)
+* [Paver Registration](#paver-registration)
 * [Repeatability](repeatability)
 * [Anti-Tip-Over Bar](anti-tip-over-bar)
 * [Parts List](#parts-list)
@@ -94,6 +95,10 @@ The original paver mount has its feet removed for placement on a 12-inch paver a
 
 The design is extendable within sensible limits for larger telescopes, by increasing the length of the 2020 extrusion in the same proportion for all parts.
 
+## Paver Registration
+
+Repeatable registration of the mount feet with the paver can be accomplished by epoxying or super-gluing the paver makers at the edges of the paver.  Place the right-angled marker against the left corner and the straight marker against the same edge such that the left rear foot of the mount fits in the right-angled marker, and the right rear foot of the mount rests against the straight marker.
+
 ## Repeatability
 
 The following testing is with an Orion ST 80mm and IOTA Focal Reducer 0.5X with focal length 185mm and 1.543x1.154deg FOV.
@@ -144,6 +149,7 @@ The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 | 4 | 2020 Corner Bracket | [2020 Aluminum Corner Bracket Small](https://spool3d.ca/2020-aluminum-corner-bracket-small/) |
 | 2 | 2020 Hinge | [2020 Aluminum Hinge](https://spool3d.ca/2020-aluminum-hinge/) (Silver or Black) |
 | ? | M5 x 8mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 8mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
+| 2 | M5 x 15mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 15mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
 | ? | M5 T-Nut | [M5 Sliding T-Nut](https://spool3d.ca/m5-sliding-t-nut/). Note, these are not twist in or "hammer head" T-Nuts, i.e. these are regular T-Nuts that won't fall out of the T-Slot.
 | ? | M5 Nut | M5 Nut - Dimensions: (diameter =  9mm point to point, thickness = 3.9mm) |
 | 1 | 3D Plate1 | Plate 1 3D-Printed Parts PLA |
@@ -163,16 +169,12 @@ The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 * Superglue
 * Pliers
 * 3mm Allen Key
+* Double Sided Permanent Tape
 
 ### Instructions
 
 ##### Important: Fine aluminum dust created by sanding, cutting, and filing can combust and be an explosion hazard when provided with an ignition source.  Clean the workarea frequently and avoid ignition sources.
 
+It's recommended that foam/felt or other materials are not used on the telescope saddles if the mount is intended to be used for pre-point later so that the telescope will be in the same place when reassembled.  The telescope stops should be used instead to prevent the telescope from slipping backwards at higher elevations.
+
 **Coming Soon**
-
-
-## TODO
-
-* Center scope on mount better (maybe bracket)
-* Sliders for Altitude
-* Brackets for paver

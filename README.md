@@ -158,13 +158,15 @@ The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 * Hobby Knife
 * Hacksaw with Metal Blade
 * Drill
-* Metal File or Belt Sander
+* Metal File or Coarse Belt Sander
 * Coarse Sand Paper
 * Superglue
 * Pliers
 * 3mm Allen Key
 
 ### Instructions
+
+##### Important: Fine aluminum dust created by sanding, cutting, and filing can combust and be an explosion hazard when provided with an ignition source.  Clean the workarea frequently and avoid ignition sources.
 
 **Coming Soon**
 

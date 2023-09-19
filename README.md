@@ -66,17 +66,25 @@ The [Astrid](https://github.com/ChasinSpin/astrid) astro imaging device is also 
 
 If you have a 3D filament printer, then you're good to go. It's also possible to order the parts printed for you via a 3D printing service. The parts are designed to be printed in PLA, but other materials can be used.
 
+[STL Files](stl)
+
 ## Azimuth Adjustment
 
 Coarse azimuth adjustments can be made by rotating the mount on the surface it's standing on.  Fine adjustments can be made with 2 fingers pushing against the 2 pieces of 2020 to displace the position and the thumbwheel can be used to tighten.
+
+![Photo Here](dummy)
 
 ## Altitude Adjustment
 
 Coarse altitude adjustments can be made by raising/lowering the altitude bar and tightening the knobs.  Fine adjustments can be made by using the screw in the foot at the front of the mount.
 
+![Photo Here](dummy)
+
 ## Collapsing For Transport
 
 The mount can be completely collapsed for transport.  Additionally, if air traveling and an extremely minimal footprint is required, an Allen key can be used to detach the cross bars for transport.
+
+![Photo Here](dummy)
 
 ## Marking Settings For Later Deployment
 
@@ -86,7 +94,11 @@ An alternative is to use a 0.4mm Sharpie felt pen to mark the position of both e
 
 The altitude fine adjustment foot can be locked in place using the lock wheel provided.
 
+![Photo Here](dummy)
+
 For azimuth, use the graduated scale near the front of the mount, and note the position (or take a photo).  Alternatively, calipers can be used to note the measurement for later.
+
+![Photo Here](dummy)
 
 ## Attaching Telescopes
 
@@ -94,11 +106,13 @@ Telescopes can be attached via a stretchable band 3d printed from NinjaFlex or T
 
 ## High Altitudes near Zenith
 
-Due to the weight of the scope and the possibility of tip-over, for higher altitudes nearer to the zenith, the 4th leg should be extended to prevent tip-over.
+Due to the weight of the scope and the possibility of tip-over, for higher altitudes nearer to the zenith, the anti-tip-over bar should be swung out to prevent tip-over.  See [Anti-Tip-Over Bar](#anti-tip-over-bar)
 
 ## Use With 12inch Pavers
 
 The original paver mount has its feet removed for placement on a 12-inch paver as the mount is larger than the paver.  The T-Slot Broughton Mount can be used the same way by removing the rear feet. Next, remove the front foot, and insert backward through the hole and T-Nut further back along the T-Slot to retain the fine altitude adjustment.
+
+![Photo Here](dummy)
 
 Another option is to slide the rear feet so they are just under 12 inches apart and also reverse the front foot as previously described for the fine altitude adjustment.
 
@@ -106,9 +120,13 @@ Another option is to slide the rear feet so they are just under 12 inches apart 
 
 The design is extendable within sensible limits for larger telescopes, by increasing the length of the 2020 extrusion in the same proportion for all parts.
 
+![Photo Here](dummy) - With label on illustrating what to make longer
+
 ## Paver Registration
 
 Repeatable registration of the mount feet with the paver can be accomplished by epoxying or super-gluing the paver makers at the edges of the paver.  Place the right-angled marker against the left corner and the straight marker against the same edge such that the left rear foot of the mount fits in the right-angled marker, and the right rear foot of the mount rests against the straight marker.
+
+![Photo Here](dummy)
 
 ## Repeatability
 
@@ -148,6 +166,8 @@ and the mount collapsed for transport.  The altitude bar position was maintained
 The design has an anti-tip-over bar that can be swung out to the rear of the scope to prevent tip-over of the scope at high elevations.  The anti-tip-over bar does not fit the 12-inch paver due to the paver's small size.
 
 The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
+
+![Photo Here](dummy)
 
 ## Parts list
 

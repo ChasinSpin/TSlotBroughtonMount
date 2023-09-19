@@ -6,7 +6,11 @@ The T-Slot Broughton Mount is a fixed-position AltAz telescope mount designed pr
 
 This mount is inspired by the original Paver Mount design of John Broughton and has similar dimensions.
 
+The design uses 2020 Aluminum T-Slot, 3D-Printed parts, and is easy to build.
+
 ![T-Slot Broughton Mount](docs/images/mount.jpg)
+
+##### Overview:
 
 * [Features](#features)
 * [Supported Telescopes](#supported-telescopes)
@@ -23,8 +27,12 @@ This mount is inspired by the original Paver Mount design of John Broughton and 
 * [Repeatability](repeatability)
 * [Anti-Tip-Over Bar](anti-tip-over-bar)
 * [Parts List](#parts-list)
-* [Assembly](#assembly)
 * [Add-Ons](#add-ons)
+
+##### Guides:
+
+* [Assembly Guide](docs/assemblyguide.md)
+* [Usage Guide](#usage-guide)
 
 ## Features
 
@@ -149,47 +157,31 @@ The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 | 1 | 2020 x 270mm | [2020 EU STandard T-Slot](https://spool3d.ca/2020-aluminum-extrusion/) - 270mm Length (Silver or Black) |
 | 1 | 2020 x 160mm | [2020 EU STandard T-Slot](https://spool3d.ca/2020-aluminum-extrusion/) - 160mm Length (Silver or Black) |
 | | | Note above T-Slot can be purchased as a 1 x 1.5m and 1 x 1m and cut to size or 3 x 1m | 
-| 4 | 2020 Corner Bracket | [2020 Aluminum Corner Bracket Small](https://spool3d.ca/2020-aluminum-corner-bracket-small/) |
+| 4 | 2020 Corner Bracket | [2020 Aluminum Corner Bracket Small](https://spool3d.ca/2020-aluminum-corner-bracket-small/) (Silver of Black) |
 | 2 | 2020 Hinge | [2020 Aluminum Hinge](https://spool3d.ca/2020-aluminum-hinge/) (Silver or Black) |
-| ? | M5 x 8mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 8mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
+| 26 | M5 x 8mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 8mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
 | 2 | M5 x 15mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 15mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
-| ? | M5 T-Nut | [M5 Sliding T-Nut](https://spool3d.ca/m5-sliding-t-nut/). Note, these are not twist in or "hammer head" T-Nuts, i.e. these are regular T-Nuts that won't fall out of the T-Slot.
-| ? | M5 Nut | M5 Nut - Dimensions: (diameter =  9mm point to point, thickness = 3.9mm) |
-| ? | End Cap | [Aluminum Extrusion Plastic Cap](https://spool3d.ca/aluminum-extrusion-plastic-cap/) |
+| 4 | M5 x 35mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 35mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
+| 1 | M5 x 45mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 45mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
+| 1 | M5 x 50mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 50mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
+| 34 | M5 T-Nut | [M5 Sliding T-Nut](https://spool3d.ca/m5-sliding-t-nut/). Note, these are not twist in or "hammer head" T-Nuts, i.e. these are regular T-Nuts that won't fall out of the T-Slot.
+| 10 | M5 Nut | M5 Nut - Dimensions: (diameter =  9mm point to point, thickness = 3.9mm) |
+| 9 | End Cap | [Aluminum Extrusion Plastic Cap](https://spool3d.ca/aluminum-extrusion-plastic-cap/) |
 | 1 | 3D Plate1 | Plate 1 3D-Printed Parts PLA |
 | 1 | 3D Plate2 | Plate 2 3D-Printed Parts PLA |
-| 1 | 3D Bands | Bands 3D-Printed TPU/NinjaFlex to hold telescope or strong rubber bands |
+| 1 | 3D Mount | 3D-Printed Mount PLA, e.g. Mount Orion ST 80mm or 1/4" Mount |
+| 1 | 3D Bands | Bands 3D-Printed TPU/NinjaFlex to hold Orion ST 80mm telescope or strong rubber bands |
+| 1 | 1/4-20 UNC Bolt | 1/4-20 UNC Bolt (regular tripod bolt) for 1/4 inch tripod mount if used) |
+| 1 | Double Sided Tape | Permanent double sided tape of glue to attached telescope slide stops to scope (Orion ST 80mm) |
 
-
-## Assembly
-
-### Tools Required:
-
-* Hobby Knife
-* Hacksaw or Miter Saw with Metal Cutting Blade
-* Drill Bit 5mm (ideally) or 13/64" (slightly larger)
-* Drill
-* Metal File or Coarse Belt Sander
-* Coarse Sand Paper
-* Superglue
-* Pliers
-* 3mm Allen Key
-* Double Sided Permanent Tape
-
-### Important Warnings: 
-1. Fine aluminum dust/chips created by sanding, cutting, and filing can combust and be an explosion hazard when provided with an ignition source.  Clean the work area frequently and avoid ignition sources.
-
-2. If using a miter saw, eye/face protection is needed and the 2020 needs to be anchored down adequately.
-
-3. Wear protective eyewear/ gear.
-
-It's recommended that foam/felt or other materials are not used on the telescope saddles if the mount is intended to be used for "pre-point later" so that the telescope will be in the same place when reassembled.  The telescope stops should be used instead to prevent the telescope from slipping backward at higher elevations.
-
-### Instructions
-
-**Coming Soon**
+**Note: All bolts are measured from the tip to the start of the head flange and do not include the thickness of the head.**
 
 ## Add-Ons
 
-T-Slot is highly configurable.  If you design some fittings to work with this mount for telescopes, accessories, or anything else... please use [OpenSCAD](https://openscad.org) to design so that it is parametric and upload it to GitHub with a picture as a pull request, so others can benefit.  All submissions are assumed to be open source and under the MIT license.
+T-Slot is highly configurable.  If you design some fittings to work with this mount for telescopes, accessories, or anything else... please use [OpenSCAD](https://openscad.org) to design so that it is parametric and upload it to GitHub with a picture and README.md as a pull request, so others can benefit.  All submissions are assumed to be open source and under the MIT license.
+
+## Guides
+
+* [Assembly Guide](docs/assemblyguide.md)
+* [Usage Guide](#usage-guide)
 

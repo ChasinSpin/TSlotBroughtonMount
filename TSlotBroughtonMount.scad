@@ -1,17 +1,10 @@
-// Hardware:
-//      3 x 2020 (360mm)
-//      1 x 2020 (93mm)
-//      4 x 2020 Corners
-//      11 x T Slot Nut
-//      11 x M5 x 8mm Bolt
+// Copyright: ChasinSpin, 2023
+// License: MIT License
 //
-// 3D Printed Parts:
-//      Plate 0
-//      Plate 1
-//      Bands
+// Suggested print speed for Creality Ender 5: Print Speed: 60mm/s (bottom 20mm/s) Travel Speed: 150mm/s
 //
-// Part 0 = PLA 15% fill, no support (Parts 2, 5, 6, 10)
-// Part 1 = PLA 15% fill, support (Parts 3, 4, 7, 8, 9, 11)
+// Part 0 = PLA 15% fill, no support (Parts 2, 6, 10, 12, 14)
+// Part 1 = PLA 15% fill, support (Parts 3, 4, 7, 8, 9, 11, 13, 16)
 // Part 2 = PLA 15% fill, no support
 // Part 3 = PLA 15% fill, support
 // Part 4 = PLA 15% fill, support
@@ -26,9 +19,12 @@
 // Part 13 = PLA 15% fill, support
 // Part 14 = PLA 15% fill, no support
 // Part 15 = PLA 15% fill, no support
-// Part 16 = Ninjaflex 30% fill, no support
+// Part 16 = PLA 15% fill, support
+// Part 17 = Ninjaflex 30% fill, no support
+// Part 18 = PLA 15% fill, no support (Parts 5, 15) 
+// Part 19 = PLA 15% fill, support 
 
-partNum                         = 0;    // 0 = Plate 1, 1 = Plate 2, 2 = Feet, 3 = Alt Foot Holder, 4 = Alt Foot, 5 = Telescope Supports, 6 = Az Stops, 7 = Alt Knobs, 8 = Rotator Knob, 9 = Extension Knob, 10 = Alt Lock Nut, 11 = Alt Bearing, 12 = Altitude Markers, 13 = Altitude Marker Knobs, 14 = Paver Markers, 15 = Telescope Slide Stop, 16 = Bands 
+partNum                         = 0;    // 0 = Plate 1, 1 = Plate 2, 2 = Feet, 3 = Alt Foot Holder, 4 = Alt Foot, 5 = Telescope Supports, 6 = Az Stops, 7 = Alt Knobs, 8 = Rotator Knob, 9 = Extension Knob, 10 = Alt Lock Nut, 11 = Alt Bearing, 12 = Altitude Markers, 13 = Altitude Marker Knobs, 14 = Paver Markers, 15 = Telescope Slide Stop, 16 = Extension Foot, 17 = Orion ST 80mm Bands, 18 = Orion ST 80mm Mount, 19 = Quarter Inch Mount
 
 full2020                        = 20;
 half2020                        = full2020/2.0;
@@ -43,7 +39,6 @@ footBoltHeadDiameter            = 9.5;
 footBoltDiameter                = m5BoltDiameter;
 footDiameter                    = 20;
 footLengthMain                  = 50;
-footLengthExtension             = 50 - full2020;
 footFlangeThickness             = 3.5;
 
 doubleFlangeHolePos             = 7.5;
@@ -139,15 +134,23 @@ rotatorKnobDiameter             = 30.0;
 rotatorKnobLength               = 8.6;
 rotatorKnobFlangeThickness      = 2.5;
 
+extensionFootKnobLength         = 50 - (full2020 + 7);
+extensionFootKnobDiameter       = 20;
+extensionFootKnobFlangeThickness= 12.3;
+
+quarterInchMountRiserDimensions = [15, 20, 40];
+quarterInchPlatformDimensions   = [30, quarterInchMountRiserDimensions[1], 5];
+quarterInchHoleDiameter         = 0.25 * 25.6;
+quarterInchHoleOffsetX          = 20;    
+
 manifoldCorrection              = 0.01;
 $fn                             = 80;
 
 
 
-
 if ( partNum == 0 )
 {
-    // PLA 15% fill, no support (Parts 2, 5, 6, 10, 12, 14)
+    // PLA 15% fill, no support (Parts 2, 6, 10, 12, 14)
 
     // Part 2
     rotate( [180, 0, 0] )
@@ -156,18 +159,8 @@ if ( partNum == 0 )
             foot(footLengthMain);
         translate( [footDiameter * 1.5, 0, -footLengthMain] )
             foot(footLengthMain);
-        translate( [footDiameter * 3.0, 0, -footLengthExtension] )
-            foot(footLengthExtension);
     }
 
-    // Part 5
-    translate( [100, 50, 0] )
-    {
-        telescopeSupport(rest1Diameter, rest1Height, rest1Length, rest1OffsetTube);
-        translate( [(restWidth + full2020) * 2.0, 0, 0] )
-            telescopeSupport(rest2Diameter, rest2Height, rest2Length, rest2OffsetTube);
-    }
-    
     // Part 6
     translate( [0, 35, 0] )
     {
@@ -189,20 +182,12 @@ if ( partNum == 0 )
     }
     
     // Part 14
-    translate( [130, 0, 0] )
+    translate( [65, 0, 0] )
         paverMarkers();
-    
-    // Part 15
-    translate( [143, 80, 0] )
-    {
-        telescopeSlideStop();
-        translate( [0, telescopeSlideStopThickness * 1.5, 0] )
-            telescopeSlideStop();
-    }
 }
 else if (partNum == 1)
 {
-    // PLA 15% fill, support (Parts 3, 4, 7, 8, 9, 11, 13)
+    // PLA 15% fill, support (Parts 3, 4, 7, 8, 9, 11, 13, 16)
     
     // Part 3
     altFootHolder();
@@ -245,6 +230,12 @@ else if (partNum == 1)
         translate( [25, 0, 0] )
             knurledKnob(altKnobDiameter, altMarkerKnobLength, altMarkerKnobFlangeThickness);
     }
+
+    // Part 16
+    translate( [150, 30, 0] )
+    {
+        knurledKnob(extensionFootKnobDiameter, extensionFootKnobLength, extensionFootKnobFlangeThickness);
+    }
 }   
 else if ( partNum == 2 )
 {
@@ -254,8 +245,6 @@ else if ( partNum == 2 )
             foot(footLengthMain);
         translate( [footDiameter * 1.5, 0, -footLengthMain] )
             foot(footLengthMain);
-        translate( [footDiameter * 3.0, 0, -footLengthExtension] )
-            foot(footLengthExtension);
     }
 }
 else if ( partNum == 3 )
@@ -328,7 +317,61 @@ else if ( partNum == 15 )
 }
 else if ( partNum == 16 )
 {
+    // Part 16
+    knurledKnob(extensionFootKnobDiameter, extensionFootKnobLength, extensionFootKnobFlangeThickness);
+}
+else if ( partNum == 17 )
+{
     bands();
+}
+else if ( partNum == 18 )
+{
+    // Parts 5, 15 (no support)
+    
+    // Part 5
+    translate( [0, 0, 0] )
+    {
+        telescopeSupport(rest1Diameter, rest1Height, rest1Length, rest1OffsetTube);
+        translate( [(restWidth + full2020) * 2.0, 0, 0] )
+            telescopeSupport(rest2Diameter, rest2Height, rest2Length, rest2OffsetTube);
+    }
+     
+    // Part 15
+    translate( [43, 30, 0] )
+    {
+        telescopeSlideStop();
+        translate( [0, telescopeSlideStopThickness * 1.5, 0] )
+            telescopeSlideStop();
+    }
+}
+else if ( partNum == 19 )
+{
+    quarterInchMount();
+}
+
+
+
+module quarterInchMount()
+{
+    // Riser
+    translate( [-quarterInchMountRiserDimensions[0]/2, -quarterInchMountRiserDimensions[1]/2, 0] )
+        cube( quarterInchMountRiserDimensions );
+    
+    // Flanges
+    translate( [-(full2020/2 + quarterInchMountRiserDimensions[0]/2), 0, 0] )
+        telescopeSupportFlange();
+    translate( [full2020/2 + quarterInchMountRiserDimensions[0]/2, 0, 0] )
+        telescopeSupportFlange();
+    
+    // Platform
+    translate( [0, 0, quarterInchMountRiserDimensions[2] - quarterInchPlatformDimensions[2]] )
+        difference()
+        {
+            translate( [0, -quarterInchPlatformDimensions[1]/2, 0] )             
+                cube( quarterInchPlatformDimensions );
+            translate( [quarterInchHoleOffsetX, 0, -manifoldCorrection] )
+                cylinder(d = quarterInchHoleDiameter, h = quarterInchPlatformDimensions[2] + manifoldCorrection * 2);
+        }
 }
 
 

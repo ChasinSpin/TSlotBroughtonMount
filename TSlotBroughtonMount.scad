@@ -28,7 +28,7 @@
 // Part 15 = PLA 15% fill, no support
 // Part 16 = Ninjaflex 30% fill, no support
 
-partNum                         = 0;    // 0 = Plate 1, 2 = Feet, 3 = Alt Foot Holder, 4 = Alt Foot, 5 = Telescope Supports, 6 = Az Stops, 7 = Alt Knobs, 8 = Rotator Knob, 9 = Extension Knob, 10 = Alt Lock Nut, 11 = Alt Bearing, 12 = Altitude Markers, 13 = Altitude Marker Knobs, 14 = Paver Markers, 15 = Telescope Slide Stop, 16 = Bands 
+partNum                         = 0;    // 0 = Plate 1, 1 = Plate 2, 2 = Feet, 3 = Alt Foot Holder, 4 = Alt Foot, 5 = Telescope Supports, 6 = Az Stops, 7 = Alt Knobs, 8 = Rotator Knob, 9 = Extension Knob, 10 = Alt Lock Nut, 11 = Alt Bearing, 12 = Altitude Markers, 13 = Altitude Marker Knobs, 14 = Paver Markers, 15 = Telescope Slide Stop, 16 = Bands 
 
 full2020                        = 20;
 half2020                        = full2020/2.0;

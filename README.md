@@ -4,7 +4,7 @@
 
 The T-Slot Broughton Mount is a fixed-position AltAz telescope mount designed primarily for pre-point asteroid occultations with smaller telescopes. It is similar to a tripod, but easier and more precise when adjusting. Better than 1-arcmin precision is easily achievable in practice.
 
-This mount is inspired by the original Paver Mount design of John Boughton and has similar dimensions.
+This mount is inspired by the original Paver Mount design of John Broughton and has similar dimensions.
 
 ![T-Slot Broughton Mount](docs/images/mount.jpg)
 
@@ -24,14 +24,15 @@ This mount is inspired by the original Paver Mount design of John Boughton and h
 * [Anti-Tip-Over Bar](anti-tip-over-bar)
 * [Parts List](#parts-list)
 * [Assembly](#assembly)
+* [Add-Ons](#add-ons)
 
 ## Features
 
 * Low profile
-* Parametric design in [OpenSCAD] (https://openscad.org). Can easily be adapted. 
+* Parametric design in [OpenSCAD](https://openscad.org). Can easily be adapted. 
 * Full range (0-90 degrees in altitude - zenith works)
 * Small and lightweight (3lb/1.375kg), ideal for air travel (can also be disassembled)
-* Set up, remove, and place back in position days later
+* Supports "pre-point later". (Set up, remove, and place back in position days later)
 * Collapsable for transport (and can be put back to the previous AltAz position)
 * Both coarse and fine adjustments for altitude and azimuth
 * Rigid design
@@ -89,7 +90,9 @@ Due to the weight of the scope and the possibility of tip-over, for higher altit
 
 ## Use With 12inch Pavers
 
-The original paver mount has its feet removed for placement on a 12-inch paver as the mount is larger than the paver.  The T-Slot Broughton Mount can be used the same way with the coarse altitude adjustment used close to a 90-degree angle as a fine adjustment.  Another option for keeping the feet and front fine altitude adjustment is to slide the rear feet so they are 12 inches apart and shorten the piece of 2020 that the front foot is attached to from 360mm to 250mm.
+The original paver mount has its feet removed for placement on a 12-inch paver as the mount is larger than the paver.  The T-Slot Broughton Mount can be used the same way by removing the rear feet. Next, remove the front foot, and insert backward through the hole and T-Nut further back along the T-Slot to retain the fine altitude adjustment.
+
+Another option is to slide the rear feet so they are just under 12 inches apart and also reverse the front foot as previously described for the fine altitude adjustment.
 
 ## Extending For Larger Scopes
 
@@ -122,7 +125,7 @@ After initial pre-point alignment and lockdown of the mount, the scope was picke
 | Reposition | -5.880 | +2.691 | 8.5% |
 | Reposition | +3.263 | +3.217 | 4.7% |
 
-### Testing repeatability in pre-pointing with Astrid after mount collapse and telescope removal for transport
+### Testing repeatability for "pre-point later" with Astrid after mount collapse and telescope removal for transport
 
 After initial pre-point alignment, the telescope was removed from the mount,
 and the mount collapsed for transport.  The altitude bar position was maintained via the altitude bar markers, and the azimuth scale was noted.  The setup was then reassembled and aligned with the paver.
@@ -134,7 +137,7 @@ and the mount collapsed for transport.  The altitude bar position was maintained
 
 ## Anti-Tip-Over Bar
 
-The design has an anti-tip-over bar that can be swung out to the rear of the scope to prevent tip-over of the scope at high elevations.  The anti-tip-over bar does not fit the 12-inch paver due to its small size.
+The design has an anti-tip-over bar that can be swung out to the rear of the scope to prevent tip-over of the scope at high elevations.  The anti-tip-over bar does not fit the 12-inch paver due to the paver's small size.
 
 The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 
@@ -152,6 +155,7 @@ The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 | 2 | M5 x 15mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 15mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
 | ? | M5 T-Nut | [M5 Sliding T-Nut](https://spool3d.ca/m5-sliding-t-nut/). Note, these are not twist in or "hammer head" T-Nuts, i.e. these are regular T-Nuts that won't fall out of the T-Slot.
 | ? | M5 Nut | M5 Nut - Dimensions: (diameter =  9mm point to point, thickness = 3.9mm) |
+| ? | End Cap | [Aluminum Extrusion Plastic Cap](https://spool3d.ca/aluminum-extrusion-plastic-cap/) |
 | 1 | 3D Plate1 | Plate 1 3D-Printed Parts PLA |
 | 1 | 3D Plate2 | Plate 2 3D-Printed Parts PLA |
 | 1 | 3D Bands | Bands 3D-Printed TPU/NinjaFlex to hold telescope or strong rubber bands |
@@ -162,7 +166,8 @@ The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 ### Tools Required:
 
 * Hobby Knife
-* Hacksaw with Metal Blade
+* Hacksaw or Miter Saw with Metal Cutting Blade
+* Drill Bit 5mm (ideally) or 13/64" (slightly larger)
 * Drill
 * Metal File or Coarse Belt Sander
 * Coarse Sand Paper
@@ -171,10 +176,20 @@ The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 * 3mm Allen Key
 * Double Sided Permanent Tape
 
+### Important Warnings: 
+1. Fine aluminum dust/chips created by sanding, cutting, and filing can combust and be an explosion hazard when provided with an ignition source.  Clean the work area frequently and avoid ignition sources.
+
+2. If using a miter saw, eye/face protection is needed and the 2020 needs to be anchored down adequately.
+
+3. Wear protective eyewear/ gear.
+
+It's recommended that foam/felt or other materials are not used on the telescope saddles if the mount is intended to be used for "pre-point later" so that the telescope will be in the same place when reassembled.  The telescope stops should be used instead to prevent the telescope from slipping backward at higher elevations.
+
 ### Instructions
 
-##### Important: Fine aluminum dust created by sanding, cutting, and filing can combust and be an explosion hazard when provided with an ignition source.  Clean the workarea frequently and avoid ignition sources.
-
-It's recommended that foam/felt or other materials are not used on the telescope saddles if the mount is intended to be used for pre-point later so that the telescope will be in the same place when reassembled.  The telescope stops should be used instead to prevent the telescope from slipping backwards at higher elevations.
-
 **Coming Soon**
+
+## Add-Ons
+
+T-Slot is highly configurable.  If you design some fittings to work with this mount for telescopes, accessories, or anything else... please use [OpenSCAD](https://openscad.org) to design so that it is parametric and upload it to GitHub with a picture as a pull request, so others can benefit.  All submissions are assumed to be open source and under the MIT license.
+

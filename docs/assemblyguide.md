@@ -36,7 +36,7 @@ Cut the 2020 T-Slot Profile to length.  Hacksaw is the safest way to this and ca
 
 Miter Saw (Chop Saw) with a blade designed for cutting aluminum profile (Non-Ferrous) can also be used for clean straight cuts, however it carries a certain amount of risk of bodily harm so appropriate safety gear should be used, parts anchored down etc.  If you wish to use this approach, please research appropriately before embarking.
 
-![Photo Here](dummy) - with labels on
+![Step 1](images/astep1.jpg) - with labels on
 
 Cut 7 lengths:
 

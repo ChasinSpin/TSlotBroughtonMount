@@ -52,7 +52,7 @@ Using the Part Identification Guide Above, locate the Altitude Bar Bearings (17)
 
 Use super glue to glue the bearings to the ends of the Coarse Altitude Bar, ensuring that they are flush with the end and both holes are oriented in the same direction.  You may need to trim the bearings carefully with a hobby knife to sit flush with the end.
 
-![Photo Here](dummy)
+![Step 2](images/astep2.jpg)
 
 Let dry a couple of hours before handling.
 
@@ -60,7 +60,7 @@ Let dry a couple of hours before handling.
 
 Find Plate 1 - 5 (Front Foot Lock) and Plate 2 - 11 (Front Foot Holder).  Insert an M5 Nut into each of the hex nut holders and make sure the are square with the surface and fully inserted.  Now put a drop of super glue on opposite sides where the nut abuts the plastic, the super glue will wick into the gap.  Be careful not to use too much superglue and contaminate the threads.
 
-![Photo Here](dummy)
+![Step 3](images/astep3.jpg)
 
 Let dry a couple of hours before handling.
 
@@ -68,37 +68,37 @@ Let dry a couple of hours before handling.
 
 From Plate 1 locate parts 10, 12, 13, 14, 15, 16. Make sure the holes are clear of plastic filament, and insert an M5 Nut into each hex nut holder.  Now insert the appropriate bolt length (indicated on the Plate 2 diagram), and tighten fully using an Allen key.  (Do Not Use Superglue).  Note parts 10 and 16 are similar in length and part 16 is slightly shorter than 10.
 
-![Photo Here](dummy)
+![Step 4](images/astep4.jpg)
 
 ### Step 5
 
 Take a piece of 360mm profile and drill a 5mm hole 3 13/32"/ 87mm from the end. Label Part A (Permanent Marker works well and can removed with alcohol).  Be careful to center the hole (a larger drill bit that just fits within the extrusion, can help mark before using the smaller drill).
 
-![Photo Here](dummy)
+![Step 5](images/astep5.jpg)
 
 ### Step 6
 
 Take 2 pieces of 360mm profile and drill a 5mm hole 2"/51mm from the end on both pieces.  It is important these holes are centered and straight and not oversized, if you have a drill press, then use that, otherwise drill carefully.  The holes should be in the same place on both pieces, so it may be easier to drill them together.  Label these B and C.
 
-![Photo Here](dummy)
+![Step 6](images/astep6.jpg)
 
 ### Step 7
 
 Take the 270mm profile and drill 2 - 5mm holes 0.5"/13mm in from the ends.  Label this part G.
 
-![Photo Here](dummy)
+![Step 7](images/astep7.jpg)
 
 ### Step 8
 
 Take part A and part D and place part A in the center of part D using 2 corner brackets and 4 - T-Nuts / 4 - M5x8mm bolts. The corner brackets have elongated holes and for best rigidity, the bolts should be furthest away from the center of the corner in this hole. It's best to assemble this part of the frame on a flat surface, and only loosely tighten the bolts until you have everything square and flush, then fully tighten.  The hole in part A should be pointing vertically and furthest away from part D.
 
-![Photo Here](dummy)
+![Step 8](images/astep8.jpg)
 
 ### Step 9
 
 Repeat step 9 with parts B and E. For this assembly, the hole in part B should be located closest to part E.
 
-![Photo Here](dummy)
+![Step 9](images/astep9.jpg)
 
 ### Step 10
 
@@ -106,7 +106,7 @@ Take part C and put an end cap on the end closest to the hole, push against a fl
 
 On a flat surface, insert a T-Nut into the bottom of part B and line up with the hole. Place part C on top and line that up with the hole in part B.  Now take Plate 2 - 13 (Azimuth Rotator) and screw through the top, and bolt B/C together so that it's just friction tight.
 
-![Photo Here](dummy)
+![Step 10](images/astep10.jpg)
 
 ### Step 11
 
@@ -116,7 +116,7 @@ Insert a T-Nut into bottom of Part A and an additional 2 - T-Nuts into the side 
 
 When correct, the loose T-Nut and the M5 Nut in the foot holder will be orientated on the same side.
 
-![Photo Here](dummy)
+![Step 11](images/astep11.jpg)
 
 ### Step 12
 
@@ -126,13 +126,13 @@ Taking assemblies A/D  and B/E, place B/E on top of A/D and slide in the hinges 
 
 Tighten loosely, and check the movement of the hinge through 90 degrees.  Adjust if necessary before tightening down.  You want to avoid any "play" in the movement.
 
-![Photo Here](dummy)
+![Step 12](images/astep12.jpg)
 
 ### Step 13
 
 Locate the azimuth stops (Plate 1 - 1 and 2) and using 4 - T-Nuts and 4 - M5x8mm, place the stops in part E on the top as shown.  Locate the stops such that the front of C does not move past B when moved left to right.
 
-![Photo Here](dummy)
+![Step 13](images/astep13.jpg)
 
 ### Step 14
 
@@ -144,7 +144,7 @@ Now place the T-Nut in the bottom of part D and using part 15, bolt through G in
 
 Fold part G so that it's inline with part A and tighten gently.
 
-![Photo Here](dummy)
+![Step 14](images/astep14.jpg)
 
 ### Step 15
 
@@ -152,19 +152,19 @@ Assemble Plate 1 - 4 (Rear Foot x 2) with a M5x8mm bolt and a T-Nut.  Slide thes
 
 Screw Plate 1 - 5 (Front Foot Lock) onto Plate 2 - 12 (Front Foot) and then screw into the FootHolder at the front of Part A.
 
-![Photo Here](dummy)
+![Step 15](images/astep15.jpg)
 
 ### Step 16
 
 Insert a T-Nut into part B.  With part F (Coarse Altitude Bar), use Plate 2 - 10 (Altitude Knobs x2) to bolt through the holes in the bearing into the T-Nuts and tighten loosely. Note, the T-Nut used on part A should be the rightmost T-Nut.  Orient the smoothest side of the bearing towards parts A/B.
 
-![Photo Here](dummy)
+![Step 16](images/astep16.jpg)
 
 ### Step 17
 
 Insert a T-Nut into parts A and B.  Locate parts Plate 1 - 3 (Altitude Markers x2) and parts Plate 2 - 15 (Altitude Marker Knobs x 2), and push the knob through the marker and bolt into the T-Slot as shown.
 
-![Photo Here](dummy)
+![Step 17](images/astep17.jpg)
 
 ### Step 18
 
@@ -172,7 +172,8 @@ If using the Orion ST 80mm, locate parts 20 and 21 and using 4 - T-Nuts and 4 - 
 
 If using the 1/4" Mount, use 2 - T-Nuts and 2 - M5x8mm and slide into the top of part C.
 
-![Photo Here](dummy)
+![Step 18 - A](images/astep18-A.jpg)
+![Step 18 - B](images/astep18-B.jpg)
 
 ### Step 19
 

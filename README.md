@@ -192,7 +192,7 @@ The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 | 1 | 3D Mount | 3D-Printed Mount PLA, e.g. Mount Orion ST 80mm or 1/4" Mount |
 | 1 | 3D Bands | Bands 3D-Printed TPU/NinjaFlex to hold Orion ST 80mm telescope or strong rubber bands |
 | 1 | 1/4-20 UNC Bolt | 1/4-20 UNC Bolt (regular tripod bolt) for 1/4 inch tripod mount if used) |
-| 1 | Double Sided Tape | Permanent double sided tape of glue to attached telescope slide stops to scope (Orion ST 80mm) |
+| 1 | Double Sided Tape | Permanent double-sided (e.g. Scotch Extreme Mounting Tape or Hot Glue) to attach telescope slide stops to telescope (Orion ST 80mm) |
 
 **Note: All bolts are measured from the tip to the start of the head flange and do not include the thickness of the head.**
 

@@ -96,7 +96,7 @@ Take part A and part D and place part A in the center of part D using 2 corner b
 
 ### Step 9
 
-Repeat step 9 with parts B and E. For this assembly, the hole in part B should be located closest to part E.
+Repeat step 9 with parts B and E. For this assembly, the hole in part B should be located closest to part E.  Put this assembly on top of the assembly from Step 8 and make sure all parts line up before tightening the bolts down.
 
 ![Step 9](images/astep9.jpg)
 

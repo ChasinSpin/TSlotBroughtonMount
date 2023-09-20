@@ -72,7 +72,7 @@ From Plate 1 locate parts 10, 12, 13, 14, 15, 16. Make sure the holes are clear 
 
 ### Step 5
 
-Take a piece of 360mm profile and drill a 5mm hole 10.75"/273mm from the end. Label Part A (Permanent Marker works well and can removed with alcohol).  Be careful to center the hole (a larger drill bit that just fits within the extrusion, can help mark before using the smaller drill).
+Take a piece of 360mm profile and drill a 5mm hole 3 13/32"/ 87mm from the end. Label Part A (Permanent Marker works well and can removed with alcohol).  Be careful to center the hole (a larger drill bit that just fits within the extrusion, can help mark before using the smaller drill).
 
 ![Photo Here](dummy)
 
@@ -102,6 +102,8 @@ Repeat step 9 with parts B and E. For this assembly, the hole in part B should b
 
 ### Step 10
 
+Take part C and put an end cap on the end closest to the hole, push against a flat surface to put the end cap in.
+
 On a flat surface, insert a T-Nut into the bottom of part B and line up with the hole. Place part C on top and line that up with the hole in part B.  Now take Plate 2 - 13 (Azimuth Rotator) and screw through the top, and bolt B/C together so that it's just friction tight.
 
 ![Photo Here](dummy)
@@ -110,7 +112,7 @@ On a flat surface, insert a T-Nut into the bottom of part B and line up with the
 
 Locate Plate 2 - 11 (Front FootHolder), and place 2 - M5x8mm bolts into the 2 holes oriented such the the bolt head fits into the recess in the holder.  Now loosely attach 2 - T-Nuts to the bolts.
 
-Insert a T-Nut into bottom of Part A and an additional T-Nut into the side (for the Coarse Altitude Bar), slide on the FootHolder and tighten the FootHolder bolts with the hold flush against the end of the profile.
+Insert a T-Nut into bottom of Part A and an additional 2 - T-Nuts into the side (Altitude Marker and the Coarse Altitude Bar), slide on the FootHolder and tighten the FootHolder bolts with the holder flush against the end of the profile.
 
 When correct, the loose T-Nut and the M5 Nut in the foot holder will be orientated on the same side.
 
@@ -136,6 +138,8 @@ Locate the azimuth stops (Plate 1 - 1 and 2) and using 4 - T-Nuts and 4 - M5x8mm
 
 Take part G and slide a T-Nut over the hole.  Screw part 16 (Extension Bar Foot) in from the same side as the T-Nut.
 
+Place end caps on both ends of part G.
+
 Now place the T-Nut in the bottom of part D and using part 15, bolt through G into the T-Nut.
 
 Fold part G so that it's inline with part A and tighten gently.
@@ -146,13 +150,13 @@ Fold part G so that it's inline with part A and tighten gently.
 
 Assemble Plate 1 - 4 (Rear Foot x 2) with a M5x8mm bolt and a T-Nut.  Slide these 2 feet onto the ends of part D and finger tighten.
 
-Screw in Plate 2 - 12 (Front Foot) into the FootHolder at the front of Part A.
+Screw Plate 1 - 5 (Front Foot Lock) onto Plate 2 - 12 (Front Foot) and then screw into the FootHolder at the front of Part A.
 
 ![Photo Here](dummy)
 
 ### Step 16
 
-Insert a T-Nut into part B.  With part F (Coarse Altitude Bar), use Plate 2 - 10 (Altitude Knobs x2) to bolt through the holes in the bearing into the T-Nuts and tighten loosely.  Orient the smoothest side of the bearing towards parts A/B.
+Insert a T-Nut into part B.  With part F (Coarse Altitude Bar), use Plate 2 - 10 (Altitude Knobs x2) to bolt through the holes in the bearing into the T-Nuts and tighten loosely. Note, the T-Nut used on part A should be the rightmost T-Nut.  Orient the smoothest side of the bearing towards parts A/B.
 
 ![Photo Here](dummy)
 
@@ -170,7 +174,11 @@ If using the 1/4" Mount, use 2 - T-Nuts and 2 - M5x8mm and slide into the top of
 
 ![Photo Here](dummy)
 
-### Step 19 (Optional)
+### Step 19
+
+Insert remaining end caps.
+
+### Step 20 (Optional)
 
 If using a paver to place the mount on, parts Plate 1 - 6 (Paver Registrations) can be glued to the paver as shown using Super Glue or Epoxy for repeatability in positioning.  The L shaped piece goes in a corner, and the straight piece at the opposite end of the adjacent edge to the corner piece.
 

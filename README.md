@@ -184,9 +184,9 @@ The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 | 4 | M5 x 35mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 35mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
 | 1 | M5 x 45mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 45mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
 | 1 | M5 x 50mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 50mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
-| 34 | M5 T-Nut | [M5 Sliding T-Nut](https://spool3d.ca/m5-sliding-t-nut/). Note, these are not twist in or "hammer head" T-Nuts, i.e. these are regular T-Nuts that won't fall out of the T-Slot.
+| 36 | M5 T-Nut | [M5 Sliding T-Nut](https://spool3d.ca/m5-sliding-t-nut/). Note, these are not twist in or "hammer head" T-Nuts, i.e. these are regular T-Nuts that won't fall out of the T-Slot.
 | 10 | M5 Nut | M5 Nut - Dimensions: (diameter =  9mm point to point, thickness = 3.9mm) |
-| 9 | End Cap | [Aluminum Extrusion Plastic Cap](https://spool3d.ca/aluminum-extrusion-plastic-cap/) |
+| 10 | End Cap | [Aluminum Extrusion Plastic Cap](https://spool3d.ca/aluminum-extrusion-plastic-cap/) |
 | 1 | 3D Plate1 | Plate 1 3D-Printed Parts PLA |
 | 1 | 3D Plate2 | Plate 2 3D-Printed Parts PLA |
 | 1 | 3D Mount | 3D-Printed Mount PLA, e.g. Mount Orion ST 80mm or 1/4" Mount |

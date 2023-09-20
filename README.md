@@ -200,8 +200,14 @@ The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 
 T-Slot is highly configurable.  If you design some fittings to work with this mount for telescopes, accessories, or anything else... please use [OpenSCAD](https://openscad.org) to design so that it is parametric and upload it to GitHub with a picture and README.md as a pull request, so others can benefit.  All submissions are assumed to be open source and under the MIT license.
 
+[Current Add-Ons](../addons/README.md)
+
 ## Guides
 
 * [Assembly Guide](docs/assemblyguide.md)
 * [Usage Guide](#usage-guide)
 
+## Credits
+
+* John Broughton
+* Steve Preston

@@ -117,9 +117,9 @@ Another (better) option is to slide the rear feet so they are just under 12 inch
 
 ## Extending For Larger Scopes
 
-The design is extendable within sensible limits for larger telescopes, by increasing the length of the 2020 extrusion in the same proportion for all parts.
+The design is extendable within sensible limits for larger telescopes, by increasing the length of the 2020 extrusion for parts ABC.
 
-![Photo Here](dummy) - With label on illustrating what to make longer
+![Extending](docs/images/astep1.jpg)
 
 ## Paver Registration
 

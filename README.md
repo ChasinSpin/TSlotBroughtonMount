@@ -204,8 +204,8 @@ T-Slot is highly configurable.  If you design some fittings to work with this mo
 ## Guides
 
 * [Assembly Guide](docs/assemblyguide.md)
-* [Usage Guide](#usageguide.md)
-* [Troubleshooting Guide](#troubleshootingguide.md)
+* [Usage Guide](docs/usageguide.md)
+* [Troubleshooting Guide](docs/troubleshootingguide.md)
 
 ## Credits
 

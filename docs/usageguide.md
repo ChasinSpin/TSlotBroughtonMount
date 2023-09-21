@@ -6,6 +6,8 @@
 
 A regular deployment is a deployment where the user pre-points the occultation for a particular event time and the star moves into view at the time of the occultation. This type of deployment may use a wooden square, paver, concrete pad, or other hard non-moving/settling surface to set up on.
 
+It is recommended to carry a 5mm Allen Key for deployments incase something needs tightening.
+
 Describe mount setup and adjustments.
 
 

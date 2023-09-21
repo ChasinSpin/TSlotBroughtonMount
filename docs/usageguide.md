@@ -1,5 +1,7 @@
 # Usage Guide
 
+### Work in progress, more to come!
+
 ## Regular Deployment
 
 A regular deployment is a deployment where the user pre-points the occultation for a particular event time and the star moves into view at the time of the occultation. This type of deployment may use a wooden square, paver, concrete pad, or other hard non-moving/settling surface to set up on.

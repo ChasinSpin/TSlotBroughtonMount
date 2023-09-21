@@ -4,7 +4,7 @@
 // Print 15% Fill With Support
 
 // Requires:
-//      3 x M5x8mm Low Profile Bolt
+//      1 x M5x8mm Low Profile Bolt
 //      2 x M5x15mm Low Profile Bolt
 //      2 x T-Nut
 //      2 x M5 Nut

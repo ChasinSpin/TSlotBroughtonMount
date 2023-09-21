@@ -72,19 +72,20 @@ If you have a 3D filament printer, then you're good to go. It's also possible to
 
 Coarse azimuth adjustments can be made by rotating the mount on the surface it's standing on.  Fine adjustments can be made with 2 fingers pushing against the 2 pieces of 2020 to displace the position and the thumbwheel can be used to tighten.
 
-![Photo Here](dummy)
+![Azimuth Adjustment](docs/images/mainAz.jpg)
 
 ## Altitude Adjustment
 
 Coarse altitude adjustments can be made by raising/lowering the altitude bar and tightening the knobs.  Fine adjustments can be made by using the screw in the foot at the front of the mount.
 
-![Photo Here](dummy)
+![Coarse Altitude Adjustment](docs/images/mainCoarseAlt.jpg)
+![Fine Altitude Adjustment](docs/images/mainFineAlt.jpg)
 
 ## Collapsing For Transport
 
 The mount can be completely collapsed for transport.  Additionally, if air traveling and an extremely minimal footprint is required, an Allen key can be used to detach the cross bars for transport.
 
-![Photo Here](dummy)
+![Collapsed](docs/images/mainCollapse.jpg)
 
 ## Marking Settings For Later Deployment
 
@@ -94,11 +95,7 @@ An alternative is to use a 0.4mm Sharpie felt pen to mark the position of both e
 
 The altitude fine adjustment foot can be locked in place using the lock wheel provided.
 
-![Photo Here](dummy)
-
 For azimuth, use the graduated scale near the front of the mount, and note the position (or take a photo).  Alternatively, calipers can be used to note the measurement for later.
-
-![Photo Here](dummy)
 
 ## Attaching Telescopes
 
@@ -112,11 +109,11 @@ Due to the weight of the scope and the possibility of tip-over, for higher altit
 
 The original paver mount has its feet removed for placement on a 12-inch paver as the mount is larger than the paver.  The T-Slot Broughton Mount can be used the same way by removing the rear feet. Next, remove the front foot, and insert backward through the hole and T-Nut further back along the T-Slot to retain the fine altitude adjustment.
 
-![Photo Here](dummy)
+![Paver Without Feet](docs/images/mainPaverNoFeet.jpg)
 
 Another (better) option is to slide the rear feet so they are just under 12 inches apart.  Remove the Front Foot Lock from the Front Foot and insert the Front Foot into the hole and T-Nut further back from the front foot's regular location.  Now use the Front Foot Lock on top of the 2020 to lock down/remove play in the Front Foot.
 
-![Photo Here](dummy)
+![Paver With Feet](docs/images/mainPaverFeet.jpg)
 
 ## Extending For Larger Scopes
 
@@ -128,7 +125,7 @@ The design is extendable within sensible limits for larger telescopes, by increa
 
 Repeatable registration of the mount feet with the paver can be accomplished by epoxying or super-gluing the paver makers at the edges of the paver.  Place the right-angled marker against the left corner and the straight marker against the same edge such that the left rear foot of the mount fits in the right-angled marker, and the right rear foot of the mount rests against the straight marker.
 
-![Photo Here](dummy)
+![Paver Registration](docs/images/mainPaverRegistration.jpg)
 
 ## Repeatability
 
@@ -169,7 +166,7 @@ The design has an anti-tip-over bar that can be swung out to the rear of the sco
 
 The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 
-![Photo Here](dummy)
+![Anti-Tip-Over Bar](docs/images/mainAntiTipOver.jpg)
 
 ## Parts list
 

@@ -183,4 +183,4 @@ Insert remaining end caps.
 
 If using a paver to place the mount on, parts Plate 1 - 6 (Paver Registrations) can be glued to the paver as shown using Super Glue or Epoxy for repeatability in positioning.  The L shaped piece goes in a corner, and the straight piece at the opposite end of the adjacent edge to the corner piece.
 
-![Photo Here](dummy)
+![Paver Registration](images/mainPaverRegistration.jpg)

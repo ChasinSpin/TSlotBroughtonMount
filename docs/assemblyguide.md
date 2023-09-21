@@ -72,7 +72,7 @@ From Plate 1 locate parts 10, 12, 13, 14, 15, 16. Make sure the holes are clear 
 
 ### Step 5
 
-Take a piece of 360mm profile and drill a 5mm hole 3 13/32"/ 87mm from the end. Label Part A (Permanent Marker works well and can removed with alcohol).  Be careful to center the hole (a larger drill bit that just fits within the extrusion, can help mark before using the smaller drill).
+Take a piece of 360mm profile and drill a 5mm hole 3 29/32"/ 100mm from the end. Label Part A (Permanent Marker works well and can removed with alcohol).  Be careful to center the hole (a larger drill bit that just fits within the extrusion, can help mark before using the smaller drill).
 
 ![Step 5](images/astep5.jpg)
 

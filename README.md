@@ -178,7 +178,7 @@ The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 | | | Note above T-Slot can be purchased as a 1 x 1.5m and 1 x 1m and cut to size or 3 x 1m | 
 | 4 | 2020 Corner Bracket | [2020 Aluminum Corner Bracket Small](https://spool3d.ca/2020-aluminum-corner-bracket-small/) (Silver of Black) |
 | 2 | 2020 Hinge | [2020 Aluminum Hinge](https://spool3d.ca/2020-aluminum-hinge/) (Silver or Black) |
-| 26 | M5 x 8mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 8mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
+| 28 | M5 x 8mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 8mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
 | 2 | M5 x 15mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 15mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
 | 4 | M5 x 35mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 35mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |
 | 1 | M5 x 45mm | [M5 Low Profile Bolt](https://spool3d.ca/m5-low-profile-screws/) - 45mm Length - Dimensions: (head diameter = 8.8mm, head thickness = 1.7mm) |

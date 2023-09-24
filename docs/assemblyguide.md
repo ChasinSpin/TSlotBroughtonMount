@@ -30,6 +30,8 @@ It's recommended that foam/felt or other materials are not used on the telescope
 
 ## Instructions
 
+From Step 3, assembly time takes about 50 minutes.
+
 ### Step 1
 
 Cut the 2020 T-Slot Profile to length.  Hacksaw is the safest way to this and can be squared off with filing or sanding.  
@@ -162,7 +164,7 @@ Insert a T-Nut into part B.  With part F (Coarse Altitude Bar), use Plate 2 - 10
 
 ### Step 17
 
-Insert a T-Nut into parts A and B.  Locate parts Plate 1 - 3 (Altitude Markers x2) and parts Plate 2 - 15 (Altitude Marker Knobs x 2), and push the knob through the marker and bolt into the T-Slot as shown.
+Insert a T-Nut into part B.  Locate parts Plate 1 - 3 (Altitude Markers x2) and parts Plate 2 - 15 (Altitude Marker Knobs x 2), and push the knob through the marker and bolt into the T-Slot as shown.
 
 ![Step 17](images/astep17.jpg)
 

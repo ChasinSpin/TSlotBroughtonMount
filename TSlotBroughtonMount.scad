@@ -24,7 +24,7 @@
 // Part 18 = PLA 15% fill, no support (Parts 5, 15) 
 // Part 19 = PLA 15% fill, support 
 
-partNum                         = 0;    // 0 = Plate 1, 1 = Plate 2, 2 = Feet, 3 = Alt Foot Holder, 4 = Alt Foot, 5 = Telescope Supports, 6 = Az Stops, 7 = Alt Knobs, 8 = Rotator Knob, 9 = Extension Knob, 10 = Alt Lock Nut, 11 = Alt Bearing, 12 = Altitude Markers, 13 = Altitude Marker Knobs, 14 = Paver Markers, 15 = Telescope Slide Stop, 16 = Extension Foot, 17 = Orion ST 80mm Bands, 18 = Orion ST 80mm Mount, 19 = Quarter Inch Mount
+partNum                         = 1;    // 0 = Plate 1, 1 = Plate 2, 2 = Feet, 3 = Alt Foot Holder, 4 = Alt Foot, 5 = Telescope Supports, 6 = Az Stops, 7 = Alt Knobs, 8 = Rotator Knob, 9 = Extension Knob, 10 = Alt Lock Nut, 11 = Alt Bearing, 12 = Altitude Markers, 13 = Altitude Marker Knobs, 14 = Paver Markers, 15 = Telescope Slide Stop, 16 = Extension Foot, 17 = Orion ST 80mm Bands, 18 = Orion ST 80mm Mount, 19 = Quarter Inch Mount
 
 full2020                        = 20;
 half2020                        = full2020/2.0;
@@ -62,6 +62,9 @@ altFootHolderMainHoleDia        = 6.0;
 altFootHolderNutDia             = m5NutDiameter;
 altFootHolderNutThickness       = m5NutThickness;
 altFootHolderFlangeThickness    = 3.5;
+altFootHolderFlangeThickness2   = altFootHolderFlangeThickness + 1;
+altFootHolder2020Clearance      = 1;
+
 
 altFootFootDiameter             = 20.0;
 altFootLength                   = 50 - 18.5;
@@ -506,7 +509,7 @@ module donut(outerDiameter, innerDiameter, height)
 module azStop(right)
 { 
     // Flange
-    doubleFlange(true);
+    doubleFlange(true, 0);
 
     if ( right )
         translate( [-0.25 * full2020, -half2020, 0] )
@@ -518,12 +521,12 @@ module azStop(right)
 
 
 
-module doubleFlange(recess)
+module doubleFlange(recess, extraWidth)
 {
     difference()
     {
-        translate( [0, -full2020/2, 0] )
-            cube( [doubleFlangeHoleFlangeLength, full2020, doubleFlangeThickness] );
+        translate( [0, -full2020/2 - extraWidth/2, 0] )
+            cube( [doubleFlangeHoleFlangeLength, full2020 + extraWidth, doubleFlangeThickness] );
         
         // Bolt holes
         translate( [doubleFlangeHoleFlangeLength - doubleFlangeHolePos, 0, -manifoldCorrection] )
@@ -609,15 +612,15 @@ module altFootHolder()
     // Flange
     translate( [0, 0, doubleFlangeThickness] )
         rotate( [180, 0, 0] )
-            doubleFlange(true);
+            doubleFlange(true, altFootHolder2020Clearance * 2);
     
     // Main Block
     translate( [-full2020/2, 0, 0] )
     {
         difference()
         {
-            translate( [-full2020/2, -full2020/2, 0] )
-                cube( [full2020, full2020, full2020 + altFootHolderFlangeThickness] );
+            translate( [-full2020/2, -full2020/2 - altFootHolder2020Clearance, 0] )
+                cube( [full2020, full2020 + altFootHolder2020Clearance * 2, full2020 + altFootHolderFlangeThickness] );
             
             // Bolt Hole
             translate( [0, 0, -manifoldCorrection] )
@@ -630,8 +633,10 @@ module altFootHolder()
     }
     
     // Side Reinforcement
-    translate( [-full2020, full2020/2, 0] )
-        cube( [full2020 + altFootHolderHoleFlangeLength, altFootHolderFlangeThickness, full2020 + altFootHolderFlangeThickness] );
+    translate( [-full2020, full2020/2 + altFootHolder2020Clearance, 0] )
+        cube( [full2020 + altFootHolderHoleFlangeLength, altFootHolderFlangeThickness2, full2020 + altFootHolderFlangeThickness] );
+    translate( [-full2020, -(full2020/2 + altFootHolderFlangeThickness2 + altFootHolder2020Clearance), 0] )
+        cube( [full2020 + altFootHolderHoleFlangeLength, altFootHolderFlangeThickness2, full2020 + altFootHolderFlangeThickness] );
 }
 
 
@@ -644,6 +649,9 @@ module altFoot()
         {
             cylinder(d = altFootFootDiameter, h = altFootLength);
             altFootKnuredKnob();
+            altFootReinforcementHeight = 7;
+            translate( [0, 0, altFootLength-(altFootKnurledThickness + altFootReinforcementHeight)] )
+                cylinder(d1 = altFootFootDiameter, d2 = altFootKnurledDiameter-5, h = altFootReinforcementHeight);
         }
         translate( [0, 0, -manifoldCorrection] )
             cylinder(d = altFootMainHoleDia, h = altFootLength + manifoldCorrection * 2);

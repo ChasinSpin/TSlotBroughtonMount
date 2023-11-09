@@ -113,10 +113,9 @@ The original paver mount has its feet removed for placement on a 12-inch paver a
 
 Another (better) option is to slide the rear feet so they are just under 12 inches apart.  Remove the Front Foot Lock from the Front Foot and insert the Front Foot into the hole and T-Nut further back from the front foot's regular location.  Now use the Front Foot Lock on top of the 2020 to lock down/remove play in the Front Foot.
 
-To prevent tip over at high elevations with 12-inch paver, it's recommended to use the [Battery Platform](addons/BatteryPlatform/README.md).
-
-
 ![Paver With Feet](docs/images/mainPaverFeet.jpg)
+
+To prevent tip over at high elevations with 12-inch paver, it's recommended to use the [Battery Platform](addons/BatteryPlatform/README.md).
 
 ## Extending For Larger Scopes
 

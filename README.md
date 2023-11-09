@@ -113,6 +113,9 @@ The original paver mount has its feet removed for placement on a 12-inch paver a
 
 Another (better) option is to slide the rear feet so they are just under 12 inches apart.  Remove the Front Foot Lock from the Front Foot and insert the Front Foot into the hole and T-Nut further back from the front foot's regular location.  Now use the Front Foot Lock on top of the 2020 to lock down/remove play in the Front Foot.
 
+To prevent tip over at high elevations with 12-inch paver, it's recommended to use the [Battery Platform](addons/BatteryPlatform/README.md).
+
+
 ![Paver With Feet](docs/images/mainPaverFeet.jpg)
 
 ## Extending For Larger Scopes
@@ -162,7 +165,7 @@ and the mount collapsed for transport.  The altitude bar position was maintained
 
 ## Anti-Tip-Over Bar
 
-The design has an anti-tip-over bar that can be swung out to the rear of the scope to prevent tip-over of the scope at high elevations.  The anti-tip-over bar does not fit the 12-inch paver due to the paver's small size.
+The design has an anti-tip-over bar that can be swung out to the rear of the scope to prevent tip-over of the scope at high elevations.  The anti-tip-over bar does not fit the 12-inch paver due to the paver's small size, for this scenario please use the [Battery Platform](addons/BatteryPlatform/README.md) instead.
 
 The Anti-Tip-Over Bar is optional and can be omitted for many occultations.
 

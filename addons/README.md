@@ -6,4 +6,5 @@ Available add-ons:
 
 | Author | Summary | Description | Link |
 | ------ | ------- | ----------- | ---- |
-| ChasinSpin | Magnetic GPS Antenna | Rectractable arm to hold a magnetic GPS antenna. | [MagGpsAntenna](MagGpsAntenna/README.md) |
+| ChasinSpin | Magnetic GPS Antenna | Retractable arm to hold a magnetic GPS antenna. | [MagGpsAntenna](MagGpsAntenna/README.md) |
+| ChasinSpin | Battery Platform | Detachable platform to serve as weight and location for battery. | [BatteryPlatform](BatteryPlatform/README.md) |

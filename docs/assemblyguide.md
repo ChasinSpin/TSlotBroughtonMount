@@ -32,6 +32,20 @@ It's recommended that foam/felt or other materials are not used on the telescope
 
 From Step 3, assembly time takes about 50 minutes.
 
+### 2020 T-Slot Profile Cut Summary (see steps below for more details)
+
+| Part # | Length | 5mm Drill Holes |
+| ------ | ------ | --------------- |
+| A | 360mm | 1 @ 100mm from end |
+| B | 360mm | 1 @ 51mmm from end |
+| C | 360mm | 1 @ 51mmm from end |
+| D | 360mm | No Holes |
+| E | 360mm | No Holes |
+| F | 160mm | No Holes |
+| G | 270mm | 2 @ 13mm (from each end) |
+
+Note: For part G, the 2 drill holes are in the same orinetation.
+
 ### Step 1
 
 Cut the 2020 T-Slot Profile to length.  Hacksaw is the safest way to this and can be squared off with filing or sanding.  

@@ -156,7 +156,7 @@ Take part G and slide a T-Nut over the hole.  Screw part 16 (Extension Bar Foot)
 
 Place end caps on both ends of part G.
 
-Now place the T-Nut in the bottom of part D and using part 15, bolt through G into the T-Nut.
+Now place the T-Nut in the bottom of part D and using part 14, bolt through G into the T-Nut.
 
 Fold part G so that it's inline with part A and tighten gently.
 
